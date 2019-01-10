@@ -1,0 +1,33 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "来場者カウント",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "VisitorCountIntent",
+                  "slots": [],
+                  "samples": [
+                      "来場者数を教えて"
+                  ]
+              }
+          ],
+          "types": []
+      }
+  }
+}
